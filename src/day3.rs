@@ -60,7 +60,7 @@ fn sumGroup(input: String) -> u32 {
 }
 
 fn main() {
-    let input = fs::read_to_string("src/input.txt").unwrap();
+    let input = fs::read_to_string("src/input/input3.txt").unwrap();
     let ans = sumGroup(input);
     println!("Sum is : {}", ans);
 }
